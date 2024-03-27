@@ -18,6 +18,9 @@ const Navbar = () => {
                     <Link as={NextLink} href='/sell' mx={2.5}>
                         <Text>Sell</Text>
                     </Link>
+                    <Link as={NextLink} href='https://thirdweb.com/arbitrum-sepolia/0x7a12341E67908CFD5e178d575c3fDeae44C6E75A/nfts' mx={2.5}>
+                        <Text>Create</Text>
+                    </Link>
                 </Flex>
                 <Flex dir={"row"} alignItems={"center"}>
                     <ConnectWallet
